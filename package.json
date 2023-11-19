@@ -1,11 +1,13 @@
 {
-  "name": "laba-4_module-3_frontend",
-  "version": "0.1.0",
+  "name": "deploy-script",
   "private": true,
+  "version": "1.0.2",
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vue-cli-service serve",
+    "lint": "vue-cli-service lint",
+    "deploy":"sh deploy.sh"
+   
   },
   "dependencies": {
     "core-js": "^3.8.3",
